@@ -507,9 +507,18 @@ body {
   color: var(--sectionPortfolio);
 }
 
-.testimonials_img,
+.testimonials {
+  padding-bottom: 128px;
+  position: relative;
+  min-height: 96px;
+}
+
+.testimonials_img {
+  position: absolute;
+}
+
 .testimonials_body {
-  float: left;
+  margin-left: 144px;
 }
 
 /* Communication */
